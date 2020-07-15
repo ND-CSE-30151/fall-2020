@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300,100" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 <link rel="stylesheet" href="css/theory.css">
+<script defer src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
 
 </head>
 
@@ -92,7 +93,7 @@
                 <ul>
                   <li><a href="https://sakailogin.nd.edu/portal/site/FA20-CSE-30151-01">Sakai</a> for submitting assignments and receiving grades</li>
                   <li><a href="https://piazza.com/nd/fall2020/cse30151">Piazza</a> for questions and answers</li>
-                  <li>Notes and assignments will be linked from here, but you can also clone the <a href="https://github.com/ND-CSE-30151/fall-2020">GitHub repository</a></li>
+                  <li><a href="https://github.com/ND-CSE-30151/fall-2020">GitHub repository</a> for the course website</li>
                 </ul>
               </dd>
             </dl>
@@ -101,170 +102,248 @@
         </div> <!-- column -->
       </div> <!-- columns -->
 
-      <a name="staff"></a>
-      <h1 class="title">Staff</h1>
-
-      <div class="columns">
-
-        <div class="column">
-          <div class="columns is-mobile">
-            
-        <div class="column is-half">
-          <img class="image" src="images/chiang.png"><br>
-          Instructor<br>
-          <a href="https://www.nd.edu/~dchiang">David Chiang</a><br>
-          dchiang@nd.edu
-          <!-- 179 Fitzpatrick -->
-        </div>
-
-        <div class="column is-half">
-          <img class="image" src="images/lee.png"><br>
-          Graduate TA<br>
-          Jongsuh Lee
-        </div>
-
-          </div>
-        </div>
-          
-        <div class="column">
-          <div class="columns is-mobile">
-            
-            <div class="column is-half">
-              <img class="image" src="images/yu.png"><br>
-              Graduate TA<br>
-              Yifan Yu
-            </div>
-            
-            <div class="column is-half">
-              <img class="image" src="images/fitzgibbons.png"><br>
-              Undergraduate TA<br>
-              Catherine FitzGibbons
-            </div>
-            
-          </div>
-        </div>
-        
-        <div class="column">
-          <div class="columns is-mobile">
-            
-            <div class="column is-half">
-              <img class="image" src="images/simoes.png"><br>
-              Undergraduate TA<br>
-              Gabriel Simões
-            </div>
-            
-          </div>
-        </div>
-        
-      </div>
-          
       <a name="schedule"></a>
       <h1 class="title">Schedule</h1>
+
+      <div class="content">
+        <p>Please read the notes (<i class="fas fa-book-open" title="Readings (Binder)"></i>), including links to textbook readings and videos, before each class. Notes are posted as Jupyter notebooks. If you want to fiddle with the examples, install <a href="https://github.com/ND-CSE-30151/tock">Tock</a>, clone the <a href="https://github.com/ND-CSE-30151/fall-2020">Git repository</a>, and run <code>jupyter notebook</code> in your working copy.</p>
+        <p>We will discuss the material and work example problems during class. After class, you can access the recorded video (<i class="fas fa-video" title="Recorded lecture (Panopto)"></i>) and whiteboards (<i class="fas fa-highlighter" title="Whiteboard (OneNote)"></i>).</p>
       
-      <div class="columns">
-        <div class="column">
-          <div class="content">
-            <p>Notes are posted as Jupyter notebooks. If you want to fiddle with the examples, install <a href="https://github.com/ND-CSE-30151/tock">Tock</a>, clone the <a href="https://github.com/ND-CSE-30151/fall-2020">Git repository</a>, and run <code>jupyter notebook</code> in your working copy.</p>
+        <p>Unless otherwise indicated, each assignment is due on Friday at 5pm of the week in which it is listed.</p>
+        
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Unit</th>
+              <th>Date</th>
+              <th>Topic</th>
+              <th>Links</th>
+              <th>Due</th>
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <td rowspan="2"></td>
+              <td>08/11</td>
+              <td>Welcome</td>
+              <td>
+                <a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week01/week01.ipynb"><i class="fas fa-book-open" title="Readings (Binder)"></i></a>
+                <!-- <a href="#"><i class="far fa-video" title="Recorded lecture (Panopto)"></i></a> -->
+                <a href="https://nd4-my.sharepoint.com/personal/dchiang_nd_edu/_layouts/OneNote.aspx?id=%2Fpersonal%2Fdchiang_nd_edu%2FDocuments%2FTheory%20of%20Computing%20-%20Fall%202020&wd=target%28Lectures%2F2020-08-11.one%7C10D65FCD-7BBB-EA49-98EE-6670D70D8AFB%2F%29"><i class="fas fa-highlighter" title="Whiteboard (OneNote)"></i></a>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>08/13</td>
+              <td>Proofs</td>
+              <td>
+                <a href="https://nd4-my.sharepoint.com/personal/dchiang_nd_edu/_layouts/OneNote.aspx?id=%2Fpersonal%2Fdchiang_nd_edu%2FDocuments%2FTheory%20of%20Computing%20-%20Fall%202020&wd=target%28Lectures%2F2020-08-13.one%7CD1F39090-7F2C-664D-A4B6-B9EBCB968D49%2F%29"><i class="fas fa-highlighter" title="Whiteboard (OneNote)"></i></a>
+              </td>
+              <td></td>
+            </tr>
             
-            <p>Unless otherwise indicated, each assignment is due on Friday at 5pm of the week in which it is listed.</p>
+            <tr>
+              <td rowspan="6">I</td>
+              <td>08/18</td>
+              <td>Finite automata</td>
+              <td>
+                <a href="https://nd4-my.sharepoint.com/personal/dchiang_nd_edu/_layouts/OneNote.aspx?id=%2Fpersonal%2Fdchiang_nd_edu%2FDocuments%2FTheory%20of%20Computing%20-%20Fall%202020&wd=target%28Lectures%2F2020-08-18.one%7CA48F3BC5-3D68-2F43-91A7-EA5E4D891191%2F%29"><i class="fas fa-highlighter" title="Whiteboard (OneNote)"></i></a>
+              </td>
+              <td></td>
+            </tr>
             
-            <table class="schedule">
-              <thead>
-                <tr>
-                  <th>Unit</th>
-                  <th>Week of</th>
-                  <th>Topic</th>
-                  <th>Assignment Due</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td></td>
-                  <td>08/10</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week01/week01.ipynb">Introduction and background</a>
-                  <td></td>
-                </tr>
-                <tr class="unit">
-                  <td rowspan="3">I</td>
-                  <td>08/17</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week02/week02.ipynb">Finite automata</a></td>
-                  <td><a href="../hw/hw1.pdf">HW1</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>08/24</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week03/week03.ipynb">Regular expressions</a></td>
-                  <td><a href="../hw/hw2.pdf">HW2</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>08/31</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week04/week04.ipynb">Non-regular languages</a></td>
-                  <td>Quiz</td>
-                </tr>
-                <tr>
-                  <td rowspan="3">II</td>
-                  <td>09/07</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week05/week05.ipynb">Context free grammars and pushdown automata </a></td>
-                  <td><a href="../hw/hw3.pdf">HW3</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>09/14</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week06/week06.ipynb">Non-context-free languages</a></td>
-                  <td><a href="../hw/hw4.pdf">HW4</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>09/21</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week07/week07.ipynb">Review</a></td>
-                  <td>Midterm exam</td>
-                </tr>
-                <tr class="unit">
-                  <td rowspan="4">III</td>
-                  <td>09/28</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week08/week08.ipynb">Turing machines</a></td>
-                  <td></td>
-                </tr>
-                <!--<tr>
-                  <td colspan="2"></td> <td>Spring break</td> <td></td>
-                </tr>-->
-                <tr class="unit">
-                  <td>10/05</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week09/week09.ipynb">TM variants and the universal TM</a></td> <td><a href="../hw/hw5.pdf">HW5</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>10/12</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week10/week10.ipynb">Undecidability</a></td>
-                  <td><a href="../hw/hw6.pdf">HW6</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>10/19</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week11/week11.ipynb">Reducibility</a></td>
-                  <td>Quiz</td>
-                </tr>
-                <tr class="unit">
-                  <td rowspan="3">IV</td>
-                  <td>10/26</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week12/week12.ipynb">P and NP</a></td>
-                  <td><a href="../hw/hw7.pdf">HW7</a></td>
-                </tr>
-                <tr class="unit">
-                  <td>11/02</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week13/week13.ipynb">NP-completeness</a></td>
-                  <td><a href="../hw/hw8.pdf">HW8</a></td> 
-                </tr>
-                <tr class="unit">
-                  <td>11/09</td>
-                  <td><a href="http://nbviewer.ipython.org/github/ND-CSE-30151/fall-2020/blob/master/notes/week14/week14.ipynb">Review</a></td> 
-                  <td></td> 
-                </tr>
-                <tr>
-                  <td></td>
-                  <td>11/16</td><td><td>Final exam</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div> <!-- content -->
-        </div> <!-- column -->
-      </div> <!-- columns -->
+            <tr>
+              <td>08/20</td>
+              <td>DFAs = NFAs</td>
+              <td>
+                <a href="https://nd4-my.sharepoint.com/personal/dchiang_nd_edu/_layouts/OneNote.aspx?id=%2Fpersonal%2Fdchiang_nd_edu%2FDocuments%2FTheory%20of%20Computing%20-%20Fall%202020&wd=target%28Lectures%2F2020-08-20.one%7C66178636-2663-7B4E-9390-8DDC57CD7D82%2F%29"><i class="fas fa-highlighter" title="Whiteboard (OneNote)"></i></a>
+              </td>
+              <td><a href="../hw/hw1.pdf">HW1</a></td>
+            </tr>
+            
+            <tr>
+              <td>08/25</td>
+              <td>Regular expressions to NFAs</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>08/27</td>
+              <td>NFAs to regular expressions</td>
+              <td></td>
+              <td><a href="../hw/hw2.pdf">HW2</a></td>
+            </tr>
+            
+            <tr>
+              <td>09/01</td>
+              <td>Non-regular languages</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>09/03</td>
+              <td>Non-regular languages</td>
+              <td></td>
+              <td>Quiz 1</td>
+            </tr>
+            
+            <tr>
+              <td rowspan="4">II</td>
+              <td>09/08</td>
+              <td>CFGs and PDAs</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>09/10</td>
+              <td>CFGs = PDAs</td>
+              <td></td>
+              <td><a href="../hw/hw3.pdf">HW3</a></td>
+            </tr>
+            
+            <tr>
+              <td>09/15</td>
+              <td>Non-context-free languages</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>09/17</td>
+              <td>Non-context-free languages</td>
+              <td></td>
+              <td><a href="../hw/hw4.pdf">HW4</a></td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2"></td>
+              <td>09/22</td>
+              <td>Review</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>09/24</td>
+              <td></td>
+              <td></td>
+              <td>Midterm</td>
+            </tr>
+            
+            <tr>
+              <td rowspan="8">III</td>
+              <td>09/29</td>
+              <td>Turing machines</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>10/01</td>
+              <td>Church-Turing thesis</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>10/06</td>
+              <td>TM variants</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>10/08</td>
+              <td>The universal TM</td>
+              <td></td>
+              <td><a href="../hw/hw5.pdf">HW5</a></td>
+            </tr>
+            
+            <tr>
+              <td>10/13</td>
+              <td>Undecidability</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>10/15</td>
+              <td>Undecidability</td>
+              <td></td>
+              <td><a href="../hw/hw6.pdf">HW6</a></td>
+            </tr>
+            
+            <tr>
+              <td>10/20</td>
+              <td>Reducibility</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>10/22</td>
+              <td>Computation histories</td>
+              <td></td>
+              <td>Quiz 2</td>
+            </tr>
+            
+            <tr>
+              <td rowspan="5">IV</td>
+              <td>10/27</td>
+              <td>P and NP</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>10/29</td>
+              <td>NP-completeness</td>
+              <td></td>
+              <td><a href="../hw/hw7.pdf">HW7</a></td>
+            </tr>
+            
+            <tr>
+              <td>11/03</td>
+              <td>Cook-Levin theorem</td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <td>11/05</td>
+              <td>Polynomial reductions</td>
+              <td></td>
+              <td><a href="../hw/hw8.pdf">HW8</a></td>
+            </tr>
+            
+            <tr>
+              <td>11/10</td>
+              <td>Polynomial reductions</td>
+              <td></td> 
+              <td></td> 
+            </tr>
+            
+            <tr>
+              <td></td> 
+              <td>11/12</td>
+              <td>Review</td> 
+              <td></td> 
+              <td></td> 
+            </tr>
+            
+            <tr>
+              <td></td> 
+              <td></td>
+              <td></td><td><td>Final</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- content -->
       
       <a name="requirements"></a>
       <h1 class="title">Requirements</h1>
